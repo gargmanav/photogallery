@@ -1,0 +1,48 @@
+.maincontainer{
+    background-color: #E2DFDB;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightside{
+    
+    font-weight: 200;
+    font-size: 25px;
+    
+}
+.leftside input{
+    width: 200px;
+    height: 25px;
+    border: gray;
+    border-radius: 5px;
+}
+.leftside button{
+    width: 80px;
+    height: 26px;
+    margin-left: 10px;
+    background-color: #E2DFDB;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.cards{
+    margin: 10px;
+    position: relative;
+}
+.showres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards img{
+    width: 300px;
+    border-radius: 5px;
+}
+.cards p{
+    position:absolute;
+     margin-top:2rem;
+     margin-left:10px;color:white;
+    font-weight: 700;
+}
